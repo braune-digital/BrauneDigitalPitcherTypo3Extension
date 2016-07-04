@@ -15,3 +15,10 @@ In case you are using Extbase you can simply get and use the service this way:
 ```
 $this->objectManager->get('BrauneDigital\Pitcher\Client\Client')->pitch('info', 'Notification to pitcher...');
 ```
+
+Without using extbase you can do it also this way:
+
+```
+$client = new \BrauneDigital\Pitcher\Client\Client();
+$client->pitch('info', 'Notification to pitcher...');
+```
