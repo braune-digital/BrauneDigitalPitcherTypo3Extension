@@ -1,0 +1,11 @@
+# cat=basic/enable; type=string; label=Pitcher secret
+secret =
+
+# cat=basic/enable; type=string; label=Pitcher satellite name
+satellite_name =
+
+# cat=basic/enable; type=string; label=Pitcher satellite name
+api_version = v1
+
+# cat=basic/enable; type=string; label=Pitcher satellite name
+pitcher_url = https://api.pitcher-app.com/
